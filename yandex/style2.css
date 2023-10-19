@@ -1,0 +1,26 @@
+.container{
+	display: inline-block;
+	margin: 15px;
+}
+.podz{
+	font-family: Anonymous Pro, Arial ;
+	font-size: 48px;
+
+}
+.call{
+	left: 10px;
+	position: relative;
+}
+.call-red{
+	position: sticky;
+	width: 98%;
+    display: flex;
+    justify-content: flex-end;
+}
+.call-blue{
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
