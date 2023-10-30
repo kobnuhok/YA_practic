@@ -1,0 +1,142 @@
+
+
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0;
+    padding: 0; 
+}
+header {
+    background-color: #FFF; 
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(106, 106, 106);
+    padding: 0 140px; /* Отступы слева и справа */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    max-width: 300px;
+    height: auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px 0 10px;
+}
+
+.links {
+    margin: 50px 20px 40px 0;
+}
+
+.links a {
+    margin-left: 25px; 
+}
+
+.links img {
+    height: auto;
+}
+
+.subtitle {
+    font-size: 30px;
+}
+
+.content {
+    padding: 0 140px; 
+    background-color: #F1F1F1; 
+    padding-top: 25px;
+	min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.sneak {
+    width: 30%;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	border-radius: 12px;
+}
+
+.sneak img {
+    width: 100%;
+    height: auto;
+}
+.description{
+	margin: 50px 20px 10px 20px;
+	width: 50%;
+	font-family: "Anonymous Pro";
+	font-weight: 400;
+	line-height: 20px;
+	font-size: 20px;;
+
+}
+.subtitle {
+    width: 100%;
+}
+
+.model{
+	font-family: "Anonymous Pro";
+	font-weight: 700;
+	line-height: 16px;
+	font-size: 16px;;
+}
+
+footer{
+	background: #121723;
+}
+.footer{
+	display: inline-block;
+	color:#FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 140px; /* Отступы слева и справа */
+	height: 150px;
+	background:transparent;
+}
+.footer__logo  {
+	color:#FFF;
+	width:600px;
+	height: auto;
+}
+
+footer .links {
+	color:#FFF;
+}
+
+.line{
+	position: relative;
+	padding: 0 140px;
+	bottom: 40px;
+}
+.footer__text{
+	font-family: "Anonymous Pro";
+	font-weight: 700;
+    position: relative;
+    left: calc(50% - 120px);
+    color:  #A1A6B4;
+    bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
